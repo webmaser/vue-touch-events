@@ -1,6 +1,6 @@
 {
-  "name": "vue2-touch-events",
-  "version": "3.0.1",
+  "name": "vue2-touch-events-touchx",
+  "version": "3.0.2",
   "description": "Simple touch events support for vueJS2",
   "main": "index.js",
   "types": "index.d.ts",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jerrybendy/vue-touch-events.git"
+    "url": "git+https://github.com/webmaser/vue-touch-events.git"
   },
   "keywords": [
     "vue",
@@ -21,9 +21,9 @@
   "author": "Jerry Bendy <jerry@icewingcc.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jerrybendy/vue-touch-events/issues"
+    "url": "https://github.com/webmaser/vue-touch-events/issues"
   },
-  "homepage": "https://github.com/jerrybendy/vue-touch-events#readme",
+  "homepage": "https://github.com/webmaser/vue-touch-events#readme",
   "devDependencies": {
     "@types/vue": "^2.0.0"
   }
