@@ -265,7 +265,7 @@ var vueTouchEvents = {
             return $el.$$touchObj;
         }
 
-        Vue.directive('touch', {
+        Vue.directive('xtouch', {
             bind: function ($el, binding) {
                 // build a touch configuration object
                 var $this = buildTouchObj($el);
@@ -342,7 +342,7 @@ var vueTouchEvents = {
             }
         });
 
-        Vue.directive('touch-class', {
+        Vue.directive('xtouch-class', {
             bind: function ($el, binding) {
                 buildTouchObj($el, {
                     touchClass: binding.value
@@ -350,7 +350,7 @@ var vueTouchEvents = {
             }
         });
 
-        Vue.directive('touch-options', {
+        Vue.directive('xtouch-options', {
             bind: function($el, binding) {
                 buildTouchObj($el, binding.value);
             }
